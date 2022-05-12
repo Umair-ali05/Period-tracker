@@ -1,5 +1,7 @@
+//-----------------------Requirements and dependencies
+
 const express = require('express');
-var bodyParser = require('body-parser');
+const bodyParser = require('body-parser');
 const mongoDb = require('mongoose');
 const unAuthRoute = require('./route/unAuth.js');
 const authRoute = require('./route/auth.js');
